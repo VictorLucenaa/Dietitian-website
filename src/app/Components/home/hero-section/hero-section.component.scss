@@ -1,0 +1,17 @@
+.hero {
+  height: 832px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+
+  &__left-section > img {
+    height: 832px;
+    width: 949px;
+  }
+
+  &__right-section {
+    height: 581px;
+    width: 759px;
+  }
+}
