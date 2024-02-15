@@ -1,0 +1,27 @@
+@import "variables";
+
+.navbar {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+
+  &__navlink {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 450;
+  }
+  .first-navlink {
+    color: #cbea7b;
+  }
+  .last-navlink {
+    margin: 10px;
+    background-color: #cbea7b;
+    padding: 13px;
+    border: 1px solid $darkGreenBgColor;
+    border-radius: 8px;
+
+    a {
+      font-weight: 650;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@import "variables";
+
+.navbar__container {
+  background-color: $darkGreenBgColor;
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 85px;
+  position: relative;
+  z-index: 9999;
+}
+
+.navbar__content__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
