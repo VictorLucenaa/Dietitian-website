@@ -1,0 +1,25 @@
+@import "variables";
+
+.customers {
+  display: flex;
+  flex-direction: row;
+  margin-top: 45px;
+  gap: 5px;
+  height: 90px;
+  align-items: center;
+
+  &__image > img {
+    width: 130px;
+    height: 60px;
+  }
+  &__number {
+    font-size: 20px;
+    color: #468671;
+    font-weight: 700;
+  }
+  &__text-content {
+    font-size: 20px;
+    color: $darkTextGreen;
+    font-weight: 650;
+  }
+}

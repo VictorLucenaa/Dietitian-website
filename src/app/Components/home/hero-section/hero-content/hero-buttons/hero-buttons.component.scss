@@ -1,0 +1,28 @@
+@import "variables";
+
+.buttons__container {
+  margin-top: 57px;
+  display: flex;
+  gap: 19px;
+  color: $darkTextGreen;
+
+  &__primary-button {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: $lightGreen;
+    padding: 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__secondary-button {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #f6fbe9;
+    padding: 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+}

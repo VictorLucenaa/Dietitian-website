@@ -1,0 +1,19 @@
+@import "variables";
+
+.content {
+  height: 581px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  color: $darkTextGreen;
+
+  &__main-text {
+    font-size: 58px;
+    font-weight: bold;
+    margin: 22px 0 22px 0;
+  }
+  &__secondary-text {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}

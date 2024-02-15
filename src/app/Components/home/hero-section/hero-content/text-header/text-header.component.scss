@@ -1,0 +1,18 @@
+@import "fonts";
+@import "variables";
+
+.container {
+  width: 55%;
+
+  &__text-header {
+    font-size: 28px;
+    font-weight: 550;
+    color: $darkTextGreen;
+  }
+  &__text-underline {
+    background-color: $lightGreen;
+    width: 385px;
+    height: 5px;
+    border-radius: 2px;
+  }
+}
