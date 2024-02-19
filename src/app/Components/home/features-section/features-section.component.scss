@@ -1,0 +1,21 @@
+.features {
+  margin: 59px 64px;
+
+  &__text--container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  &__main-text {
+    font-weight: 700;
+    font-size: 48px;
+  }
+  &__secondary-text {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+}

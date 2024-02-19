@@ -1,0 +1,11 @@
+<div class="cards">
+  <div class="cards__card-container" *ngFor="let card of cardsData">
+    <div class="cards__card-content">
+      <div class="cards__card-header">
+        <img class="cards__icon" [src]="card.logo" [alt]="card.alt" />
+        <p class="cards__main-text">{{ card.mainText }}</p>
+      </div>
+      <p class="cards__secondary-text">{{ card.secondaryText }}</p>
+    </div>
+  </div>
+</div>
