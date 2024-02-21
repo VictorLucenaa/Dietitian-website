@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ICard } from './Icards.interface';
+import { ICard } from '../interfaces/Icards.interface';
 
 @Injectable({
   providedIn: 'root',

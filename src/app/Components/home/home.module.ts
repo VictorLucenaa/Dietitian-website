@@ -15,7 +15,9 @@ import { HeroButtonsComponent } from './hero-section/hero-content/hero-buttons/h
 import { HeroCustomersComponent } from './hero-section/hero-content/hero-customers/hero-customers.component';
 import { FeaturesSectionComponent } from './features-section/features-section.component';
 import { CardsFeaturesComponent } from './features-section/cards-features/cards-features.component';
-import { CardsInfoService } from './features-section/cards-info.service';
+import { CardsInfoService } from './services/cards-info.service';
+import { BlogSectionComponent } from './blog-section/blog-section.component';
+import { BlogCardComponent } from './blog-section/blog-card/blog-card.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { CardsInfoService } from './features-section/cards-info.service';
     HeroCustomersComponent,
     FeaturesSectionComponent,
     CardsFeaturesComponent,
+    BlogSectionComponent,
+    BlogCardComponent,
   ],
   imports: [CommonModule],
   exports: [

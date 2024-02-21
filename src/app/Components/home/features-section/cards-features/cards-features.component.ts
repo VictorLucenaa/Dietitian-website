@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { ICard } from '../Icards.interface';
-import { CardsInfoService } from '../cards-info.service';
+import { ICard } from '../../interfaces/Icards.interface';
+import { CardsInfoService } from '../../services/cards-info.service';
 
 @Component({
   selector: 'app-cards-features',
@@ -8,10 +8,6 @@ import { CardsInfoService } from '../cards-info.service';
   styleUrl: './cards-features.component.scss',
 })
 export class CardsFeaturesComponent {
-  @Input('cardLogo') cardLogo: string = '';
-  @Input('cardMainText') cardMainText: string = '';
-  @Input('cardSecondaryText') cardSecondaryText: string = '';
-
   cardsData: ICard[] = [];
 
   constructor(private _cardsInfoService: CardsInfoService) {
