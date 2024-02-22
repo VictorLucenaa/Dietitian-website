@@ -1,0 +1,28 @@
+<section class="testimonials">
+  <div class="testimonials__container">
+    <div class="testimonials__text-container">
+      <div class="testimonials__header">
+        <p class="testimonials__main-text">Our Testimonials</p>
+        <p class="testimonials__secondary-text">
+          Our satisfied clients share their success stories and experiences on
+          their journey to better health and well-being.
+        </p>
+      </div>
+    </div>
+    <div class="testimonials__cards-container">
+      <app-testimonial-card
+        *ngFor="let card of testimonialsData"
+        [testimonialsCard]="card"
+      />
+    </div>
+
+    <div class="testimonials__pages--container">
+      <img src="assets\images\home\testimonials\left-icon.jpeg" class="logo" />
+      <img
+        src="assets\images\home\testimonials\current-page-icon.jpeg"
+        class="indicator"
+      />
+      <img src="assets\images\home\testimonials\right-icon.jpeg" class="logo" />
+    </div>
+  </div>
+</section>

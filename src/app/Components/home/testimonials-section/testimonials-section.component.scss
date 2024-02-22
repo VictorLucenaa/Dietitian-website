@@ -1,0 +1,54 @@
+.testimonials {
+  display: flex;
+  height: 695px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    width: 95%;
+    height: 100%;
+  }
+
+  &__text-container {
+    text-align: center;
+  }
+
+  &__main-text {
+    font-size: 48px;
+    font-weight: 780;
+  }
+
+  &__secondary-text {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 25px auto 50px auto;
+  }
+
+  &__cards-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+  }
+
+  &__pages--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+    gap: 22px;
+    margin-left: 20px;
+
+    .logo {
+      width: 58px;
+      height: 58px;
+      cursor: pointer;
+    }
+
+    .indicator {
+      width: 56px;
+      height: 8px;
+      cursor: pointer;
+    }
+  }
+}

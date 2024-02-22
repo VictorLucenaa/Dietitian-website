@@ -1,0 +1,13 @@
+<div class="card">
+  <div class="card__main--content">
+    <img
+      src="assets/images/home/testimonials/card-icon.jpeg"
+      class="card__logo"
+    />
+    <p class="card__text--content">{{ card.textContent }}</p>
+  </div>
+  <div class="card__client--info">
+    <img [src]="card.clientImage" class="card__client--image" />
+    <p class="card__client--name">{{ card.clientName }}</p>
+  </div>
+</div>
