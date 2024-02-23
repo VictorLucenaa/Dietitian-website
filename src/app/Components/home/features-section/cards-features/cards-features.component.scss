@@ -1,31 +1,32 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 30px;
+  width: 100%;
 
   &__card-container {
-    width: 873px;
+    width: 49%;
     height: 252px;
-    background-color: #eef8d3;
+    background-color: #f6fbe9;
     border-radius: 12px;
+    border: 1px solid #e5f5bd;
   }
-
   &__card-content {
-    margin: 25px;
+    margin: 39px 49px auto;
   }
   &__card-header {
     display: flex;
     align-items: center;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
   }
 
   &__main-text {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 24px;
     margin-left: 7px;
   }
   &__secondary-text {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
   }
 

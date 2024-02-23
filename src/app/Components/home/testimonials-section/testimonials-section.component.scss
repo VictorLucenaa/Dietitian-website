@@ -1,12 +1,15 @@
+@import "variables";
+
 .testimonials {
   display: flex;
   height: 695px;
   width: 100%;
   justify-content: center;
   align-items: center;
+  color: $darkTextGreen;
 
   &__container {
-    width: 95%;
+    width: 83%;
     height: 100%;
   }
 

@@ -1,32 +1,31 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 883px;
-  height: 832px;
+  width: 100%;
+  height: 63%;
   background-color: #f6fbe9;
   border-radius: 12px;
-  border: 1px solid #eef8d3;
 
   &__image--container {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
   &__image {
     margin-top: 40px;
-    width: 703px;
-    height: 428px;
-    justify-items: center;
+    width: 90%;
+    height: 92%;
   }
 
   &__text--container {
-    margin-top: 49px;
-    margin-left: 88px;
+    background-color: #f6fbe9;
+    margin: 51px 60px;
   }
 
   &__text--header {
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 550;
   }
   &__main--text {
@@ -46,7 +45,7 @@
     align-items: center;
     background-color: white;
     margin-top: 34px;
-    width: 703px;
+    width: 100%;
     height: 100px;
     border-radius: 12px;
     border: 1px solid #eef8d3;
