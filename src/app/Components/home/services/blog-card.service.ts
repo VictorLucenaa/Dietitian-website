@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { IblogCard } from '../interfaces/iblog-card';
+import { IblogCard } from '../interfaces/iblogCard.interface';
 
 @Injectable({
   providedIn: 'root',

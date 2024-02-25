@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { TestimonialsService } from '../services/testimonials.service';
-import { ItestimonialCard } from '../interfaces/Itestimonial-card';
+import { ItestimonialCard } from '../interfaces/ItestimonialCard.interce';
 
 @Component({
   selector: 'app-testimonials-section',

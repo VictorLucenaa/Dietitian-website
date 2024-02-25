@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { BlogCardService } from '../services/blog-card.service';
-import { IblogCard } from '../interfaces/iblog-card';
+import { IblogCard } from '../interfaces/iblogCard.interface';
 
 @Component({
   selector: 'app-blog-section',

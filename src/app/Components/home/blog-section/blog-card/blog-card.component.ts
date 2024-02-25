@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 
-import { IblogCard } from '../../interfaces/iblog-card';
+import { IblogCard } from '../../interfaces/iblogCard.interface';
 
 @Component({
   selector: 'app-blog-card',

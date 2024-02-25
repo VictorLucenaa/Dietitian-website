@@ -19,6 +19,11 @@ import { BlogCardComponent } from './blog-section/blog-card/blog-card.component'
 import { CardsInfoService } from './services/cards-info.service';
 import { TestimonialsSectionComponent } from './testimonials-section/testimonials-section.component';
 import { TestimonialCardComponent } from './testimonials-section/testimonial-card/testimonial-card.component';
+import { PricingSectionComponent } from './pricing-section/pricing-section.component';
+import { PlanCardComponent } from './pricing-section/plan-card/plan-card.component';
+import { FooterComponent } from '../footer/footer.component';
+import { FooterNavbarComponent } from '../footer/footer-navbar/footer-navbar.component';
+import { BottomBannerComponent } from '../footer/bottom-banner/bottom-banner.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +45,11 @@ import { TestimonialCardComponent } from './testimonials-section/testimonial-car
     BlogCardComponent,
     TestimonialsSectionComponent,
     TestimonialCardComponent,
+    PricingSectionComponent,
+    PlanCardComponent,
+    FooterComponent,
+    FooterNavbarComponent,
+    BottomBannerComponent,
   ],
   imports: [CommonModule],
   exports: [
@@ -56,6 +66,16 @@ import { TestimonialCardComponent } from './testimonials-section/testimonial-car
     HeroButtonsComponent,
     HeroCustomersComponent,
     FeaturesSectionComponent,
+    CardsFeaturesComponent,
+    BlogSectionComponent,
+    BlogCardComponent,
+    TestimonialsSectionComponent,
+    TestimonialCardComponent,
+    PricingSectionComponent,
+    PlanCardComponent,
+    FooterComponent,
+    FooterNavbarComponent,
+    BottomBannerComponent,
   ],
   providers: [CardsInfoService],
 })

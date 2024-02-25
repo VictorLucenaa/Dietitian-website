@@ -1,0 +1,27 @@
+<section class="pricing">
+  <div class="pricing__container">
+    <div class="pricing__text-container">
+      <div class="pricing__header">
+        <p class="pricing__main-text">Our Pricing</p>
+        <p class="pricing__secondary-text">
+          We outline our flexible and affordable options to support you on your
+          journey to optimal health and nutrition. We believe that <br />
+          everyone deserves access to personalized nutrition guidance and
+          resources
+        </p>
+      </div>
+    </div>
+    <div class="pricing__plan-term">
+      <div class="pricing__buttons">
+        <a class="pricing__montly">Monthly</a>
+        <a class="pricing__yearly">Yearly</a>
+      </div>
+      <div class="pricing__plan-termText">
+        <p>Save 50% on Yearly</p>
+      </div>
+    </div>
+    <div class="pricing__cards-container">
+      <app-plan-card *ngFor="let card of planCardData" [cardPlanData]="card" />
+    </div>
+  </div>
+</section>

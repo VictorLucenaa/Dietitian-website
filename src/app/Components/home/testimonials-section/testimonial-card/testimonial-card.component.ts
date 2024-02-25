@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { ItestimonialCard } from '../../interfaces/Itestimonial-card';
+import { ItestimonialCard } from '../../interfaces/ItestimonialCard.interce';
 
 @Component({
   selector: 'app-testimonial-card',
