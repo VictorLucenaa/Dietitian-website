@@ -1,0 +1,36 @@
+@import "variables";
+
+.navbar {
+  background-color: $darkGreenBgColor;
+  color: white;
+  display: flex;
+  width: 100%;
+  height: 67px;
+  justify-content: space-between;
+  align-items: center;
+
+  &__links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 19px;
+    margin-right: 10px;
+  }
+
+  &__links a {
+    cursor: pointer;
+  }
+
+  &__go-top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 19px;
+  }
+
+  &__go-top-logo {
+    width: 62px;
+    height: 62px;
+    cursor: pointer;
+  }
+}

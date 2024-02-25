@@ -1,0 +1,16 @@
+@import "variables";
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 220px;
+  align-items: center;
+  justify-content: center;
+  background-color: $darkGreenBgColor;
+
+  &__navbar,
+  &__banner {
+    display: flex;
+    width: 85%;
+  }
+}
