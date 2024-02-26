@@ -1,5 +1,5 @@
 .hero {
-  height: 832px;
+  height: 612px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -20,5 +20,21 @@
     justify-content: center;
     height: 100%;
     width: 50%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .hero {
+    height: 832px;
+    margin-bottom: 84px;
+
+    &__right-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      margin-top: 250px;
+      height: 100%;
+      width: 50%;
+    }
   }
 }

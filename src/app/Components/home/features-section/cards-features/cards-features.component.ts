@@ -8,9 +8,9 @@ import { CardsInfoService } from '../../services/cards-info.service';
   styleUrl: './cards-features.component.scss',
 })
 export class CardsFeaturesComponent {
-  cardsData: ICard[] = [];
+  cards: ICard[] = [];
 
   constructor(private _cardsInfoService: CardsInfoService) {
-    this.cardsData = _cardsInfoService.getCardsInfo();
+    this.cards = _cardsInfoService.getCardsInfo();
   }
 }

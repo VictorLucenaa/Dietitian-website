@@ -5,14 +5,24 @@
   width: 55%;
 
   &__text-header {
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 550;
     color: $darkTextGreen;
   }
   &__text-underline {
     background-color: $lightGreen;
-    width: 385px;
+    width: 98%;
     height: 5px;
     border-radius: 2px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container__text-header {
+    font-size: 28px;
+  }
+  .container__text-underline {
+    background-color: $lightGreen;
+    width: 82%;
   }
 }

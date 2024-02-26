@@ -3,23 +3,41 @@
 .customers {
   display: flex;
   flex-direction: row;
-  margin-top: 45px;
+  margin-top: 35px;
   gap: 5px;
-  height: 90px;
   align-items: center;
 
   &__image > img {
-    width: 130px;
-    height: 60px;
+    width: 102px;
+    height: 52px;
   }
   &__number {
-    font-size: 20px;
+    font-size: 18px;
     color: #468671;
     font-weight: 700;
   }
   &__text-content {
-    font-size: 20px;
+    font-size: 18px;
     color: $darkTextGreen;
     font-weight: 650;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .customers {
+    margin-top: 45px;
+    height: 90px;
+    align-items: center;
+
+    &__image > img {
+      width: 130px;
+      height: 60px;
+    }
+    &__number {
+      font-size: 20px;
+    }
+    &__text-content {
+      font-size: 20px;
+    }
   }
 }
