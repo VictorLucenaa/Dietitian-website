@@ -24,7 +24,7 @@
   justify-content: center;
   border: 0.1px solid #2c5446;
   gap: 10px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .icon-right {
@@ -41,4 +41,10 @@
 
 .text-content {
   cursor: pointer;
+}
+
+@media screen and (min-width: 1400px) {
+  .top__banner__content {
+    font-size: 18px;
+  }
 }

@@ -7,13 +7,18 @@
   align-items: center;
   width: 100%;
   color: $darkTextGreen;
-  height: 871px;
+  height: 771px;
 
   &__container {
     display: flex;
     flex-direction: column;
     width: 84%;
     height: 100%;
+    align-items: center;
+  }
+
+  &__text-container {
+    width: 74%;
   }
 
   &__header {
@@ -21,12 +26,12 @@
     margin-bottom: 49px;
   }
   &__main-text {
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 780;
     margin-bottom: 21px;
   }
   &__secondary-text {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 550;
     margin-bottom: 42px;
   }
@@ -58,7 +63,7 @@
     height: 47px;
     border-radius: 6px;
     margin: 9px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 550;
     cursor: pointer;
   }
@@ -68,20 +73,108 @@
     justify-content: center;
     width: 113px;
     height: 47px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     cursor: pointer;
   }
 
   &__plan-termText {
     margin-top: 21px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 450;
   }
 
   &__cards-container {
     display: flex;
     gap: 20px;
-    height: 53%;
+    height: 48%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: $darkTextGreen;
+    height: 871px;
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      width: 84%;
+      height: 100%;
+    }
+
+    &__header {
+      text-align: center;
+      margin-bottom: 49px;
+    }
+    &__main-text {
+      font-size: 48px;
+      font-weight: 780;
+      margin-bottom: 21px;
+    }
+    &__secondary-text {
+      font-size: 18px;
+      font-weight: 550;
+      margin-bottom: 42px;
+    }
+
+    &__plan-term {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 150px;
+    }
+
+    &__buttons {
+      width: 15%;
+      display: flex;
+      justify-content: start;
+      border: 1px solid #dcf1a7;
+      border-radius: 12px;
+      align-items: center;
+    }
+
+    &__montly {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #234338;
+      color: white;
+      width: 113px;
+      height: 47px;
+      border-radius: 6px;
+      margin: 9px;
+      font-size: 18px;
+      font-weight: 550;
+      cursor: pointer;
+    }
+    &__yearly {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 113px;
+      height: 47px;
+      font-size: 18px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    &__plan-termText {
+      margin-top: 21px;
+      font-size: 18px;
+      font-weight: 450;
+    }
+
+    &__cards-container {
+      display: flex;
+      gap: 20px;
+      height: 53%;
+    }
   }
 }

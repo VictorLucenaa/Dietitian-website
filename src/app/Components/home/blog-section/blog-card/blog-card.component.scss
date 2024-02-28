@@ -11,31 +11,33 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    z-index: 1;
   }
 
   &__image {
     margin-top: 40px;
     width: 90%;
     height: 92%;
+    border-radius: 8px;
   }
 
   &__text--container {
     background-color: #f6fbe9;
-    margin: 51px 60px;
+    padding: 31px 30px;
   }
 
   &__text--header {
-    font-size: 19px;
-    font-weight: 550;
+    font-size: 16px;
+    font-weight: 450;
   }
   &__main--text {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 550;
     margin-top: 10px;
     cursor: pointer;
   }
   &__secondary--text {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 450;
     margin-top: 26px;
   }
@@ -43,10 +45,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: #fafdf2;
     margin-top: 34px;
     width: 100%;
-    height: 100px;
+    height: 30%;
     border-radius: 12px;
     border: 1px solid #eef8d3;
   }
@@ -56,18 +58,18 @@
   }
 
   &__post__image {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     margin: auto 18px;
   }
 
   &__post__author--name {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 650;
     cursor: pointer;
   }
   &__post__date {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 450;
     margin-top: 5px;
   }
@@ -79,9 +81,52 @@
   }
 
   &__post__logo {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 8px;
     cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .card {
+    &__image {
+      margin-top: 40px;
+      width: 90%;
+      height: 92%;
+      border-radius: 8px;
+    }
+
+    &__text--header {
+      font-size: 19px;
+    }
+
+    &__main--text {
+      font-size: 26px;
+    }
+    &__secondary--text {
+      font-size: 20px;
+    }
+
+    &__post__info--container {
+      height: 30%;
+    }
+
+    &__post__image {
+      width: 60px;
+      height: 60px;
+    }
+
+    &__post__author--name {
+      font-size: 20px;
+    }
+    &__post__date {
+      font-size: 18px;
+    }
+
+    &__post__logo {
+      width: 50px;
+      height: 50px;
+    }
   }
 }
