@@ -10,6 +10,7 @@ import { PricingSectionModule } from './pricing-section/pricing-section.module';
 import { TestimonialsSectionModule } from './testimonials-section/testimonials-section.module';
 import { FooterModule } from '../footer/footer.module';
 import { HeaderModule } from '../header/header.module';
+import { RouterOutlet } from '@angular/router';
 
 @NgModule({
   declarations: [HomeComponent],
@@ -22,6 +23,7 @@ import { HeaderModule } from '../header/header.module';
     PricingSectionModule,
     TestimonialsSectionModule,
     FooterModule,
+    RouterOutlet,
   ],
   exports: [HeaderComponent, HomeComponent, TopBannerComponent],
   providers: [],
