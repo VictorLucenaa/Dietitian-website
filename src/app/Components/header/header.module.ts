@@ -1,5 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatDividerModule } from '@angular/material/divider';
 
 import { HeaderComponent } from './header.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -17,7 +21,13 @@ import { RightIconComponent } from './top-banner/right-icon/right-icon.component
     LeftIconComponent,
     RightIconComponent,
   ],
-  imports: [CommonModule],
+  imports: [
+    CommonModule,
+    MatSidenavModule,
+    MatButtonModule,
+    MatIconModule,
+    MatDividerModule,
+  ],
   exports: [
     HeaderComponent,
     NavbarComponent,

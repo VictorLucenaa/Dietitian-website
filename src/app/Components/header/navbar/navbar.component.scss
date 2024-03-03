@@ -6,14 +6,32 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  height: 85px;
-  position: relative;
-  z-index: 9999;
+  height: 70px;
 }
 
 .navbar__content__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 90%;
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1400px) {
+  .navbar__container {
+    background-color: $darkGreenBgColor;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 85px;
+    position: relative;
+    z-index: 9999;
+  }
+
+  .navbar__content__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
 }
