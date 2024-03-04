@@ -16,6 +16,15 @@
   width: 90%;
 }
 
+.navbar__logo__container {
+  width: 50%;
+}
+.navbar__buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
 @media screen and (min-width: 1024px) and (min-width: 1400px) {
   .navbar__container {
     background-color: $darkGreenBgColor;

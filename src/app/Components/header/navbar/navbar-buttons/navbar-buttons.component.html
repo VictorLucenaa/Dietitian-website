@@ -32,7 +32,7 @@
       </svg>
     </button>
 
-    <ul *ngIf="showMenu" class="dropdown-menu dropdown-menu-end">
+    <div *ngIf="showMenu" class="dropdown-menu dropdown-menu-end">
       <li>
         <a class="navbar__navlink dropdown-item">Home</a>
       </li>
@@ -45,16 +45,16 @@
       <li>
         <a class="navbar__navlink dropdown-item">Process</a>
       </li>
+
       <li>
         <a class="navbar__navlink dropdown-item">Pricing</a>
       </li>
       <li>
         <a class="navbar__navlink dropdown-item">Blog</a>
       </li>
-
       <li>
-        <a class="navbar__navlink dropdown-item">Contact Us</a>
+        <a class="navbar__navlink dropdown-item">Contact</a>
       </li>
-    </ul>
+    </div>
   </div>
 </nav>
