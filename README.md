@@ -1,27 +1,75 @@
-# DietitianWebsite
+<h1 align="center" style="font-weight: bold;">Nutritionist 💻</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+<p align="center">
+ <a href="#tech">Technologies</a> • 
+ <a href="#started">Getting Started</a> • 
+  <a href="#colab">Collaborators</a> •
+ <a href="#contribute">Contribute</a>
+</p>
 
-## Development server
+<p align="center">
+    <b>This is a landing page for a fictional website for dietitians named Nutritionist</b>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p align="center">
+     <a href="https://dietitian-website.vercel.app/">📱 Visit this Project</a>
+</p>
 
-## Code scaffolding
+<h2 id="layout">🎨 Layout</h2>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p align="center">
+    <img width="700px" height="400px" alt="desktop" src="https://github.com/VictorLucenaa/Dietitian-website/assets/124616309/aa88e738-f299-4e26-8488-027588bd1a3d">
+    <img width="200px" height="400px" alt="mobile" src="https://github.com/VictorLucenaa/Dietitian-website/assets/124616309/57a45626-1288-4a69-bfdd-caebbe146bc8">
+</p>
 
-## Build
+<h2 id="technologies">💻 Technologies</h2>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular
+- Git
+- Angular CDK
+- Bootstrap
+  
 
-## Running unit tests
+<h2 id="started">🚀 Getting started</h2>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+<h3>Prerequisites</h3>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+To run this project locally you will need:
 
-## Further help
+- [NodeJS](https://github.com/)
+- [Git 2](https://github.com)
+- [Angular](https://www.npmjs.com/package/@angular/cli) Version >= 16
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h3>Cloning</h3>
+
+<h3>Starting</h3>
+
+```bash
+git clone https://github.com/VictorLucenaa/Dietitian-website.git
+npm install
+```
+
+<h3>Start Server</h3>
+
+
+```bash
+//in root
+ng serve
+```
+
+
+<h2 id="contribute">📫 Contribute</h2>
+
+If you want to contribute, clone this repo, create your work branch and get your hands dirty!
+
+1. `git clone https://github.com/VictorLucenaa/Dietitian-website.git`
+2. `git checkout -b feature/NAME`
+3. Follow commit patterns
+4. Open a Pull Request explaining the problem solved or feature made, if exists, append screenshot of visual modifications and wait for the review!
+
+<h3>Documentations that might help</h3>
+
+[📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
+
+[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
