@@ -41,7 +41,6 @@ To run this project locally you will need:
 - [Git 2](https://github.com)
 - [Angular](https://www.npmjs.com/package/@angular/cli) Version >= 16
 
-<h3>Cloning</h3>
 
 <h3>Starting</h3>
 
