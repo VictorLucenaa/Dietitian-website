@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-    <b>Explore o site do Nutricionista, um projeto Angular 17 que montei como treinamento das minhas habilidades em angular. Esta é uma landing page criada para demonstrar programas de nutrição para uma empresa especializada em soluções dietéticas.</b>
+    <b>Explore o site Nutritionist, um projeto Angular 17 que montei como treinamento das minhas habilidades em angular. Esta é uma landing page criada para demonstrar programas de nutrição para uma empresa especializada em soluções dietéticas.</b>
 </p>
 
 <p align="center">
