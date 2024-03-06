@@ -10,7 +10,6 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 export class NavbarButtonsComponent implements OnInit {
   isSmallScreen: boolean = false;
   isBigScreen: boolean = false;
-  showMenu: boolean = false;
 
   constructor(
     private breakpointOberserver: BreakpointObserver,
@@ -45,7 +44,5 @@ export class NavbarButtonsComponent implements OnInit {
       });
   }
 
-  toggleMenu() {
-    this.showMenu = !this.showMenu;
-  }
+  
 }

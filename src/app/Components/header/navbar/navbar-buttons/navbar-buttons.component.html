@@ -8,53 +8,34 @@
   <button class="last-navlink" *ngIf="isBigScreen">
     <a class="navbar__navlink">Contact Us</a>
   </button>
-  <div *ngIf="isSmallScreen" class="btn-group">
-    <button
-      type="button"
-      (click)="toggleMenu()"
-      class="btn btn-secondary dropdown-toggle"
-      data-bs-toggle="dropdown"
-      aria-expanded="false"
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="45"
-        height="45"
-        style="color: #cbea7b"
-        fill="currentColor"
-        class="bi bi-list"
-        viewBox="0 0 16 16"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
-        />
-      </svg>
-    </button>
 
-    <div *ngIf="showMenu" class="dropdown-menu dropdown-menu-end">
+  <div class="menu-container" *ngIf="isSmallScreen">
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-buton-container">
+      <div class="menu-button"></div>
+    </label>
+    <ul class="menu">
       <li>
-        <a class="navbar__navlink dropdown-item">Home</a>
+        <a class="navbar__navlink">Home</a>
       </li>
       <li>
-        <a class="navbar__navlink dropdown-item">About</a>
+        <a class="navbar__navlink">About</a>
       </li>
       <li>
-        <a class="navbar__navlink dropdown-item">Team</a>
+        <a class="navbar__navlink">Team</a>
       </li>
       <li>
-        <a class="navbar__navlink dropdown-item">Process</a>
-      </li>
-
-      <li>
-        <a class="navbar__navlink dropdown-item">Pricing</a>
+        <a class="navbar__navlink">Process</a>
       </li>
       <li>
-        <a class="navbar__navlink dropdown-item">Blog</a>
+        <a class="navbar__navlink">Pricing</a>
       </li>
       <li>
-        <a class="navbar__navlink dropdown-item">Contact</a>
+        <a class="navbar__navlink">Blog</a>
       </li>
-    </div>
+      <li>
+        <a class="navbar__navlink">Contact Us</a>
+      </li>
+    </ul>
   </div>
 </nav>
