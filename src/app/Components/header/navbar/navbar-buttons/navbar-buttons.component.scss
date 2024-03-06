@@ -3,7 +3,11 @@
 .navbar {
   display: flex;
   gap: 15px;
+  height: 100%;
+  width: 100%;
   align-items: center;
+  justify-content: end;
+  margin-right: 20px;
 
   &__navlink {
     cursor: pointer;
@@ -27,36 +31,111 @@
   }
 }
 
-.btn {
-  background-color: $darkGreenBgColor;
-  border: none;
-}
-
-.btn-group {
-  position: relative;
-}
-
-.dropdown-menu {
+.menu-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 16px;
-  background-color: $darkGreenBgColor;
-  position: absolute;
-  margin-top: 9px;
-  list-style: none;
-  width: 107px;
-  left: -42px;
-  border-radius: 4px;
-  padding: 10px;
+  justify-content: end;
+  height: 50px;
+  padding: 1em;
 }
 
-.dropdown-item {
-  position: relative;
-  width: 100px;
-  text-decoration: wavy;
-  :first-child {
-    margin-top: 0;
-    padding-top: 0;
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu > li {
+  overflow: hidden;
+}
+
+.menu-button-container {
+  display: block;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #cbea7b;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: "";
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: "";
+  margin-top: 8px;
+}
+
+#menu-toggle:checked ~ .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked ~ .menu-button-container .menu-button {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked ~ .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+@media (max-width: 700px) {
+  .menu-button-container {
+    display: flex;
+  }
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 141px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #1c3a30;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: #234338;
   }
 }
